@@ -15,40 +15,39 @@ section
     min-height: 100vh;
     align-items: center;
 }
-section header
+header
 {
-    position: absolute;
-    top: 0;
     width: 100%;
+    top: 0%;
+    position: absolute;
     display: flex;
     justify-content: flex-end;
     padding: 20px;
 }
-section header ul
+header ul
 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-section header ul li
+ul li
 {
     list-style:none;
     margin-left: 20px;
 }
-section header ul li a
+li a
 {
     color:black;
     text-decoration: none;
     font-size: 13px;
 }
-section header ul li button
+ul li button
 {
     background:rgb(0, 140, 255);
     border:none;
-    outline: 8px 14px;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 700;
+    outline: none;
+    padding: 8px 14px;
+    color: white;    
     border-radius: 3px;
     cursor: pointer;
 }
@@ -60,24 +59,24 @@ section .main
     align-items: center;
     justify-content: center;
 }
-section .main .searchBox
+.searchBox
 {
     position: relative;
     width: 100%;
     margin-top: 20px;
 }
-section .main .searchBox .search
+.search
 {
     width: 100%;
     padding:13px;
     padding-left: 45px;
     padding-right: 60px;
     border-radius: 30px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(175, 175, 175);
     outline: none;
-    font-size: 16px;
+    font-size: 24px;
 }
-section .main .searchBox .Icons
+.icons
 {
     position: absolute;
     top: 0;
@@ -86,17 +85,16 @@ section .main .searchBox .Icons
     padding: 12 px 20px;
     justify-content: space-between;
     align-items: center;
-    pointer-events: none;
 }
 section .main .buttons
 {
     margin-top: 20px;
 }
-section .main .buttons button
+.buttons button
 {
     margin: 0 5px;
     padding: 12px 20px;
-    color: #555;
+    color: rgb(80, 80, 80);
     font-size: 14px;
     border: none;
     cursor: progress;
@@ -104,12 +102,17 @@ section .main .buttons button
     border: 1px solid transparent;
     outline: none;
 }
-section .main .buttons button:hover
+.buttons button:hover
 {
-    border: 1px solid #ccc;
+    border: 1px solid rgb(175, 175, 175);
 }
-section .main .languages
+.languages
 {
     display: flex;
     margin-top: 30px;
+    list-style: none;
+}
+footer 
+{
+    background-color: rgb(225, 225, 225);
 }
